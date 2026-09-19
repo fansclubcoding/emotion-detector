@@ -1,0 +1,16 @@
+$ python3 -m unittest test_emotion_detection -v
+test_anger (test_emotion_detection.TestEmotionDetection.test_anger)
+A mad statement is dominated by anger. ... ok
+test_disgust (test_emotion_detection.TestEmotionDetection.test_disgust)
+A disgusted statement is dominated by disgust. ... ok
+test_fear (test_emotion_detection.TestEmotionDetection.test_fear)
+An afraid statement is dominated by fear. ... ok
+test_joy (test_emotion_detection.TestEmotionDetection.test_joy)
+A glad statement is dominated by joy. ... ok
+test_sadness (test_emotion_detection.TestEmotionDetection.test_sadness)
+A sad statement is dominated by sadness. ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.029s
+
+OK

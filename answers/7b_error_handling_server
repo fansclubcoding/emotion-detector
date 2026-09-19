@@ -1,0 +1,11 @@
+Task 7 Activity 2 - server.py: handling of blank input errors
+
+    text_to_analyze = request.args.get("textToAnalyze")
+    response = emotion_detector(text_to_analyze)
+
+    if response["dominant_emotion"] is None:
+        return "Invalid text! Please try again!", 400
+
+A blank or missing textToAnalyze makes the Watson NLP service answer with
+status code 400; emotion_detector then returns dominant_emotion None and the
+route answers "Invalid text! Please try again!".
